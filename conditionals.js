@@ -8,3 +8,12 @@ if (temperature < 0) {
   console.log("shorts ok")
 }
 console.log("you good to go")
+
+const isCitizen = true 
+const age = 26
+
+if (isCitizen && age >18){
+  console.log("You can vote")
+}else {
+  console.log("you cannot vote")
+}
